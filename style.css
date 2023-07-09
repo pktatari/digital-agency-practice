@@ -55,10 +55,68 @@ nav {
 .btn {
   padding: 12px 20px;
   border: none;
-  margin: 20px;
+  margin-right: 20px;
   border-radius: 8px;
 }
 .bg-pri {
   background-color: orangered;
   color: white;
+}
+.service-cont {
+  height: 100vh;
+  background-image: url("asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.85));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  width: 100%;
+}
+.left {
+  /* width: 50%; */
+  padding: 50px;
+}
+.right {
+  /* width: 50%; */
+}
+.box {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  padding: 50px;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(33, 33, 33);
+  margin: 12px;
+}
+.icon {
+  width: 70px;
+}
+.ser-des {
+  width: 50%;
+}
+.pic-det {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid orangered;
+}
+.pic-n-btn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.author {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+}
+.t-boxes {
+  display: flex;
 }
